@@ -1,0 +1,12 @@
+name: 'My Custom Action'
+description: 'Aksi kustom yang mencetak pesan.'
+
+inputs:
+  name:
+    description: 'Nama yang ingin dipanggil'
+    required: true
+    default: 'Dunia'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
